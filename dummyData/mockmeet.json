@@ -1,0 +1,66 @@
+{
+	"meetData": [
+		{
+			"id": "0001",
+			"name": "CT Robinson",
+			"school": "Silver Creek",
+			"dives": [
+				{
+					"order": "first",
+					"diveNumber": "103b",
+					"diveName": "Front 1.5 Pike",
+					"diveDD": "1.7",
+					"scores": [5, 5, 5],
+					"total": "25.5"
+				},
+				{
+					"order": "second",
+					"diveNumber": "105b",
+					"diveName": "Front 2.5 Pike",
+					"diveDD": "2.6",
+					"scores": [6, 6, 6],
+					"total": "46.8"
+				},
+				{
+					"order": "third",
+					"diveNumber": "405c",
+					"diveName": "Inward 2.5 Tuck",
+					"diveDD": "3.1",
+					"scores": [7.5, 7.5, 7.5],
+					"total": "69.75"
+				}
+			]
+		},
+		{
+			"id": "0002",
+			"name": "Kyle Stewart",
+			"school": "Silver Creek",
+			"dives": [
+				{
+					"order": "first",
+					"diveNumber": "201b",
+					"diveName": "Back Dive Pike",
+					"diveDD": "1.6",
+					"scores": [8, 8, 8],
+					"total": "38.4"
+				},
+				{
+					"order": "second",
+					"diveNumber": "205b",
+					"diveName": "Back 2.5 Pike",
+					"diveDD": "3.2",
+					"scores": [6, 6, 6],
+					"total": "57.6"
+				},
+				{
+					"order": "third",
+					"diveNumber": "305c",
+					"diveName": "Reverse 2.5 Tuck",
+					"diveDD": "3.0",
+					"scores": [7.5, 7.5, 7.5],
+					"total": "67.5"
+				}
+			]
+		}
+	]
+}

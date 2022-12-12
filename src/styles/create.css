@@ -1,0 +1,84 @@
+.cm-wrap {
+	margin: 50px;
+}
+
+.cm-info {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	width: 200px;
+}
+
+select {
+	width: 50px;
+}
+
+b {
+	text-align: center;
+}
+
+label,
+input,
+select,
+button {
+	margin: 10px;
+}
+
+button {
+	width: fit-content;
+}
+
+/* Modal */
+body.active-modal {
+	overflow-y: hidden;
+}
+
+.modal-container,
+.modal-background {
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+}
+
+.modal-background {
+	background: rgba(49, 49, 49, 0.8);
+	z-index: 99;
+}
+
+.modal-content {
+	position: absolute;
+	top: 0;
+	margin-top: 50px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	line-height: 1.4;
+	background: #f1f1f1;
+	padding: 14px 28px;
+	border-radius: 10px;
+	width: fit-content;
+	max-width: 600px;
+	z-index: 1000;
+}
+
+/* add diver */
+.ad-wrap {
+	display: flex;
+	flex-direction: column;
+}
+
+.dive-input {
+	width: 50px;
+}
+
+.ad-dives {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

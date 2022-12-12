@@ -1,0 +1,261 @@
+{
+	"meets": [
+		{
+			"id": 0,
+			"name": "Northern Conference",
+			"event": "1 Meter, 11 Dives",
+			"date": "Jan. 23, 2022",
+			"divers": [
+				{
+					"name": "CT Robinson",
+					"id": "0000",
+					"school": "Silver Creek",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c",
+							"seventh": "203c",
+							"eighth": "301c",
+							"ninth": "305c",
+							"tenth": "5233d",
+							"eleventh": "405c"
+						}
+					]
+				},
+				{
+					"name": "Meep Meepers",
+					"id": "0001",
+					"school": "Denver",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c",
+							"seventh": "203c",
+							"eighth": "301c",
+							"ninth": "305c",
+							"tenth": "5233d",
+							"eleventh": "405c"
+						}
+					]
+				},
+				{
+					"name": "Tim Atlas",
+					"id": "0002",
+					"school": "Loveland",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c",
+							"seventh": "203c",
+							"eighth": "301c",
+							"ninth": "305c",
+							"tenth": "5233d",
+							"eleventh": "405c"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "4A State",
+			"event": "1 Meter, 11 Dives",
+			"date": "Feb. 4, 2022",
+			"divers": [
+				{
+					"name": "CT Robinson",
+					"id": "0000",
+					"school": "Silver Creek",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c",
+							"seventh": "203c",
+							"eighth": "301c",
+							"ninth": "305c",
+							"tenth": "5233d",
+							"eleventh": "405c"
+						}
+					]
+				},
+				{
+					"name": "Meep Meepers",
+					"id": "0001",
+					"school": "Denver",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c",
+							"seventh": "203c",
+							"eighth": "301c",
+							"ninth": "305c",
+							"tenth": "5233d",
+							"eleventh": "405c"
+						}
+					]
+				},
+				{
+					"name": "Tim Atlas",
+					"id": "0002",
+					"school": "Loveland",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c",
+							"seventh": "203c",
+							"eighth": "301c",
+							"ninth": "305c",
+							"tenth": "5233d",
+							"eleventh": "405c"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "All-City",
+			"event": "1 Meter, 6 Dives",
+			"date": "Nov. 5, 2021",
+			"divers": [
+				{
+					"name": "CT Robinson",
+					"id": "0000",
+					"school": "Silver Creek",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c"
+						}
+					]
+				},
+				{
+					"name": "George Borge",
+					"id": "0005",
+					"school": "Pueblo",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c"
+						}
+					]
+				},
+				{
+					"name": "Tim Atlas",
+					"id": "0002",
+					"school": "Loveland",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Nationals",
+			"event": "1 Meter, 11 Dives",
+			"date": "Mar. 18, 2022",
+			"divers": [
+				{
+					"name": "CT Robinson",
+					"id": "0000",
+					"school": "Silver Creek",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c",
+							"seventh": "203c",
+							"eighth": "301c",
+							"ninth": "305c",
+							"tenth": "5233d",
+							"eleventh": "405c"
+						}
+					]
+				},
+				{
+					"name": "Joe Jorgenson",
+					"id": "0003",
+					"school": "South Dakota",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c",
+							"seventh": "203c",
+							"eighth": "301c",
+							"ninth": "305c",
+							"tenth": "5233d",
+							"eleventh": "405c"
+						}
+					]
+				},
+				{
+					"name": "Tim Fiji",
+					"id": "0004",
+					"school": "New York",
+					"dives": [
+						{
+							"first": "103b",
+							"second": "105b",
+							"third": "401b",
+							"fourth": "403b",
+							"fifth": "5134d",
+							"sixth": "201c",
+							"seventh": "203c",
+							"eighth": "301c",
+							"ninth": "305c",
+							"tenth": "5233d",
+							"eleventh": "405c"
+						}
+					]
+				}
+			]
+		}
+	]
+}

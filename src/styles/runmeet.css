@@ -1,0 +1,144 @@
+/* Modal */
+body.active-modal {
+	overflow-y: hidden;
+}
+
+.modal-container,
+.modal-background {
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+}
+
+.modal-background {
+	background: rgba(49, 49, 49, 0.8);
+	z-index: 99;
+}
+
+.modal-content {
+	position: absolute;
+	top: 0;
+	margin-top: 50px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	line-height: 1.4;
+	background: #f1f1f1;
+	padding: 14px 28px;
+	border-radius: 10px;
+	width: fit-content;
+	max-width: 600px;
+	z-index: 1000;
+}
+
+/* button */
+.RM-dives-btn {
+	border: 1px solid black;
+	border-radius: 1rem;
+	width: fit-content;
+	padding: 5px;
+	cursor: pointer;
+}
+
+/* Run Meet */
+.RM-judge-box {
+	display: flex;
+	flex-direction: column;
+}
+.RM-wrap {
+}
+
+.RM-header {
+}
+
+.RM-dive-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.RM-DB-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.RM-DB-box {
+	width: 300px;
+}
+
+.RM-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.RM-nxt-btn {
+	background-color: blue;
+	border-radius: 1em;
+	padding: 20px;
+	width: fit-content;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.RM-nxt-btn:hover {
+	background-color: aqua;
+}
+
+/* Judges Scores */
+.sd-judges {
+}
+.score-tile {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+.line {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.judgesscores-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.score-display {
+}
+
+.sc-display {
+	display: flex;
+	flex-direction: column;
+}
+
+/* End Meet */
+.EM-DD-wrap {
+	display: flex;
+}
+
+.EM-divers {
+	border: 1px solid black;
+	width: fit-content;
+	padding: 40px;
+}
+
+.score-display {
+	display: flex;
+	flex-direction: row;
+}
+
+.single-score {
+	margin: 10px;
+	border: 1px solid black;
+	padding: 2px;
+	width: fit-content;
+}

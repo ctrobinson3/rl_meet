@@ -1,0 +1,64 @@
+/* Page */
+
+.sd-submit {
+	border: 1px solid black;
+	padding: 40px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.sd-submit:hover {
+	background-color: aquamarine;
+}
+
+/* Judges Boxes */
+
+.sd-judges {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sd-judge-input {
+	margin: 0 30px 0 30px;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.sd-input-display {
+}
+
+.sd-score {
+	display: flex;
+}
+
+/* Score Buttons */
+
+.score-btns {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sd-row {
+	display: flex;
+}
+
+.sd-button {
+	height: 60px;
+	width: 60px;
+	margin: 15px;
+	border: 1px solid black;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sd-back {
+	background-color: red;
+}
+
+.sd-button:hover {
+	background-color: aquamarine;
+}
