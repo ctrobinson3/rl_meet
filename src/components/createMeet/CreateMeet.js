@@ -31,10 +31,6 @@ const CreateMeet = () => {
 		document.body.classList.remove('active-modal');
 	}
 
-	// delete
-	const test = () => {
-		console.log(meetName, numJudges);
-	};
 	return (
 		<div className='cm-wrap'>
 			<header>
@@ -44,17 +40,25 @@ const CreateMeet = () => {
 				<label>Meet Name:</label>
 				<input onChange={onMeetNameInput} />
 				<label>Number of Judges:</label>
-				<input onChange={onNumJudgesInput} />
-				<button
-					onClick={() => {
-						setOpenPasswordModal(!openPasswordModal);
-					}}
-				>
-					Add Diver
-				</button>
-				{divers.map((d) => (
-					<DisplayDiver key={d.diverName} diver={d} />
-				))}
+				<select value={numJudges} onChange={onNumJudgesInput}>
+					<option value=''></option>
+					<option value='2'>2</option>
+					<option value='3'>3</option>
+				</select>
+				<div className='cm-add-btn'>
+					<button
+						onClick={() => {
+							setOpenPasswordModal(!openPasswordModal);
+						}}
+					>
+						Add Diver
+					</button>
+				</div>
+				<div className='cm-diver-list'>
+					{divers.map((d) => (
+						<DisplayDiver key={d.diverName} diver={d} />
+					))}
+				</div>
 			</div>
 			{/* Modal */}
 			{openPasswordModal && (
@@ -67,6 +71,7 @@ const CreateMeet = () => {
 							/>
 							<footer>
 								<button
+									on
 									onClick={() => {
 										setOpenPasswordModal(!openPasswordModal);
 									}}
@@ -78,8 +83,10 @@ const CreateMeet = () => {
 					</div>
 				</div>
 			)}
-			<div>
-				<Link to='/meetrun'>Create Meet</Link>
+			<div className='cm-foot'>
+				<Link className='cm-btn' to='/meetrun'>
+					Create Meet
+				</Link>
 			</div>
 		</div>
 	);

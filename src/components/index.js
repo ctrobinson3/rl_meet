@@ -4,5 +4,6 @@ import RunMeet from './runMeet/RunMeet';
 import EndMeet from './runMeet/EndMeet';
 import CreateMeet from './createMeet/CreateMeet';
 import MeetRun from './createMeet/meetRun/MeetRun';
+import MeetEnd from './createMeet/meetRun/MeetEnd';
 
-export { Menu, OpenMeet, RunMeet, EndMeet, CreateMeet, MeetRun };
+export { Menu, OpenMeet, RunMeet, EndMeet, CreateMeet, MeetRun, MeetEnd };

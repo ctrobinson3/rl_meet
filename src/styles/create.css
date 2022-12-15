@@ -82,3 +82,232 @@ body.active-modal {
 	align-items: center;
 	justify-content: center;
 }
+
+/* Meet End */
+.me-wrap {
+	text-align: center;
+	margin: 20px;
+}
+.me-foot {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+}
+.me-home-btn {
+	cursor: pointer;
+	border: 1px solid black;
+	width: fit-content;
+	padding: 20px;
+}
+
+.EM-DD-wrap {
+	border: 5px solid black;
+	padding: 20px;
+	overflow: scroll;
+}
+
+/* Modal */
+body.active-modal {
+	overflow-y: hidden;
+}
+
+.dc-modal-container,
+.dc-modal-background {
+	height: 100vh;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+	overflow: scroll;
+}
+
+.dc-modal-background {
+	background: rgba(49, 49, 49, 0.8);
+	z-index: 99;
+}
+
+.dc-modal-content {
+	position: absolute;
+	top: 0;
+	margin-top: 50px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	line-height: 1.4;
+	background: #f1f1f1;
+	padding: 14px 28px;
+	border-radius: 10px;
+	width: fit-content;
+	z-index: 1000;
+	overflow: scroll;
+}
+
+/* create meet */
+.cm-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid black;
+	padding: 20px;
+	border-radius: 2em;
+}
+
+.cm-btn {
+	border: 2px solid black;
+	padding: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.cm-add-btn {
+	display: flex;
+	justify-content: center;
+}
+
+.cm-diver-list {
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.cm-foot {
+	margin: 50px;
+}
+
+/* Run Meet */
+.cm-meet-wrap {
+	margin: 20px;
+	overflow: hidden;
+}
+
+.cm-meet-head {
+	display: flex;
+}
+
+.cm-meet-col {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	padding: 0 20px 0 20px;
+	width: 30%;
+}
+
+.cm-meet-col-b {
+	width: 70%;
+	text-align: center;
+}
+
+.cm-txt-a {
+}
+.cm-txt-b {
+	font-weight: 500;
+	font-size: 20px;
+}
+.cm-txt-c {
+	font-size: 15px;
+}
+.cm-txt-d {
+	font-size: 25px;
+}
+
+p {
+	margin: 0;
+}
+.cm-diveinfo-wrap,
+.cm-judge-box {
+	margin-top: 10px;
+}
+
+/* judge score box */
+.ds-judges {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.ds-judge-input {
+	margin: 0 20px 0 20px;
+}
+
+.ds-box {
+	border: 1px solid black;
+	text-align: center;
+	height: 30px;
+	color: red;
+}
+
+/* score buttons */
+.ds-score-btns {
+}
+
+.ds-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ds-button,
+.ds-shaded {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	font-size: 30px;
+	border-radius: 10px;
+	height: 50px;
+	width: 50px;
+	margin: 7px;
+}
+
+.ds-back {
+	background-color: red;
+	width: 100px;
+}
+
+.ds-shaded {
+	background-color: aqua;
+}
+
+.ds-submit,
+.ds-next,
+.ds-endmeet {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 50%;
+	margin-top: 20px;
+	height: 50px;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ds-total-dis {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ds-next {
+	background-color: rgb(74, 221, 45);
+	color: black;
+}
+
+.ds-endmeet {
+	background-color: red;
+	text-decoration: none;
+}
+
+.ds-foot-btns {
+	display: flex;
+}
+
+/* End Meet */
+.me-diver-wrap {
+	margin: 0 20px 0 20px;
+}

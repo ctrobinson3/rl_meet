@@ -36,10 +36,6 @@ const RunMeet = () => {
 		}
 	};
 
-	const endMeet = () => {
-		console.log('meet endddddddddddddddddddddddddddddddded');
-	};
-
 	const onNextDiver = () => {
 		setMeetData([
 			...meetData,
@@ -79,8 +75,6 @@ const RunMeet = () => {
 		setRoundNum(0);
 		setDiverOrder(0);
 	};
-	console.log(meetData);
-	console.log(score);
 
 	return (
 		<div className='RM-wrap margin border'>

@@ -6,6 +6,7 @@ import {
 	EndMeet,
 	CreateMeet,
 	MeetRun,
+	MeetEnd,
 } from './components/index';
 import { Route, Routes } from 'react-router-dom';
 import Test from './components/test/Test';
@@ -22,6 +23,7 @@ const App = () => {
 					<Route path='/test' element={<Test />} />
 					<Route path='/createmeet' element={<CreateMeet />} />
 					<Route path='/meetrun' element={<MeetRun />} />
+					<Route path='/meetend' element={<MeetEnd />} />
 				</Routes>
 			</React.Suspense>
 		</div>

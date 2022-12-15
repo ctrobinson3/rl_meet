@@ -7,12 +7,9 @@ function Menu() {
 	return (
 		<div>
 			<h1>Meets</h1>
-			<div>
+			{/* <div>
 				<MeetList />
-			</div>
-			<div>
-				<Link to='/test'>Test</Link>
-			</div>
+			</div> */}
 			<div>
 				<Link to='/createmeet'>Create Meet</Link>
 			</div>
